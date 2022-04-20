@@ -1,0 +1,15 @@
+To Setup Jest in your Project, you can follow this steps.
+
+1. npm = "npm install --save-dev jest", yarn = "yarn add --dev jest"
+2. and you can try to make a file, that contain function. it's up to you!
+3. and to make a test file, you can create a file with this rules:
+    3.1 create new file in same folder
+    3.2 give a name, "fileName.test.js"
+    3.3 and you can write some assertion inside file you've create in step 3.2
+4. and you can edit in "package.json":
+      {
+        "scripts": {
+          "test": "jest"
+        }
+      }
+5. and you can run test with this comman "npm run test"
